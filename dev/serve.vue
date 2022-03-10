@@ -1,13 +1,11 @@
 <script lang="ts">
 import Vue from 'vue';
 // Uncomment import and local "components" registration if library is not registered globally.
-import { VueLibrarySample } from '@/entry.esm';
-import Cord from '../src/lib-components/vue-card.vue'
+import { Card } from '@thunder_fury/vue-library'
 export default Vue.extend({
   name: 'ServeDev',
   components: {
-    VueLibrarySample,
-    Cord
+    Card
   },
   methods: {
     click(e: Event) {
@@ -19,7 +17,6 @@ export default Vue.extend({
 
 <template>
   <div id="app">
-    <vue-library-sample />
-    <Cord :onClick="(e) =>click(e)" label="button text" />
+    <Card label="adsfasdfdddddddddddd" />
   </div>
 </template>

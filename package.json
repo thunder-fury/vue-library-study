@@ -1,5 +1,5 @@
 {
-  "name": "vue-library",
+  "name": "@thunder_fury/vue-library",
   "version": "1.0.0",
   "description": "",
   "main": "dist/vue-library.ssr.js",
@@ -60,5 +60,7 @@
   "engines": {
     "node": ">=12"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@thunder_fury/vue-library": "^1.0.0"
+  }
 }
